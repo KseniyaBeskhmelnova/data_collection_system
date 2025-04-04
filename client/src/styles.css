@@ -1,0 +1,110 @@
+/* Основной контейнер */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Карточка */
+.card {
+    background: #f0f8ff;
+    border: 2px solid #1e90ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки */
+.blue-header {
+    color: #1e90ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Поля ввода */
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Узкие поля ввода */
+.narrow-input {
+    width: 85%;
+}
+
+/* Ободки для данных ввода */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e90ff;
+    margin-bottom: 5px;
+}
+
+/* Ободки для категорий */
+.input-border {
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Для каждой категории */
+.category-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1e90ff;
+}
+
+/* Заголовки для каждого поля */
+.input-title {
+    font-size: 14px;
+    font-weight: normal;
+    color: #104e8b;
+    margin-bottom: 5px;
+}
+
+/* Строка для тарифов */
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Сообщение об ошибке */
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Кнопка отправки */
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    .submit-button:hover {
+        background-color: #104e8b;
+    }
