@@ -44,6 +44,27 @@
   "title": "Введите показания счётчиков",
   "groups": [
     {
+      "groupLabel": "Номер квартиры",
+      "fields": [
+        {
+          "name": "apartment",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "groupLabel": "Вода",
+      "fields": [
+        {
+          "name": "waterReading",
+          "label": "Показания счётчика",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
       "groupLabel": "Электричество",
       "fields": [
         {
@@ -55,6 +76,17 @@
         {
           "name": "electricityNightRate",
           "label": "Тариф ночной",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "groupLabel": "Газ",
+      "fields": [
+        {
+          "name": "gasReading",
+          "label": "Показания счётчика",
           "type": "number",
           "required": false
         }
