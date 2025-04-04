@@ -71,8 +71,8 @@
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone https://github.com/your-username/jkh-metering-app.git  
-cd jkh-metering-app  
+git clone https://github.com/KseniyaBeskhmelnova/data_collection_system.git  
+cd data_collection_system  
 ```
 
 ### 2. Установить зависимости
